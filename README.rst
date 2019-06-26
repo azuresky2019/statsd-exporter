@@ -30,7 +30,7 @@ You can also add a prefix to all your stats:
     >>> c = statsd.StatsClient('localhost', 8125, prefix='foo')
     >>> c.incr('bar')  # Will be 'foo.bar' in statsd/graphite.
 
-Telegraf-compatible tags are supported, as well:
+Datadog-compatible tags are supported, as well:
 
 .. code-block:: python
 

@@ -4,13 +4,14 @@ from setuptools import find_packages, setup
 
 
 setup(
-    name='statsd-telegraf',
-    version='3.2.1-1',
-    description='A fork of pystatsd package with Telegraf-compatible tag support.',
+    name='statsd-exporter',
+    version='3.2.1',
+    description='A fork of pystatsd package with statsd-exporter compatible tag support.',
     long_description=open('README.rst').read(),
-    author='Bernardas Ališauskas',
-    author_email='bernardas.alisauskas@gmail.com',
-    url='https://github.com/Granitosaurus/statsd-telegraf',
+    long_description_content_type='text/markdown',
+    author='Sander Van Schoote',
+    author_email='sander@openmotics.com',
+    url='https://github.com/openmotics/statsd-exporter',
     license='MIT',
     packages=find_packages(),
     include_package_data=True,
